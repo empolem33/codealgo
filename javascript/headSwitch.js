@@ -2,7 +2,9 @@
 //return sorted array
 function fixTheMeerkat(arr) {
   //your code here
-  return arr;
+  const x = arr.shift();
+  const y = arr.pop();
+  return [y, ...arr, x];
 }
 
-console.log(["tail", "body", "head"]);
+console.log(fixTheMeerkat(["tail", "body", "head"]));
