@@ -5,3 +5,11 @@
 //1601 --> 17
 //2000 --> 20
 //pesudo divide by 100
+
+function century(year) {
+  // Finish this :)
+  return Math.ceil(year / 100);
+}
+
+console.log(century(1601));
+console.log(century(1900));
