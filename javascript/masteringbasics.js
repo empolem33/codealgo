@@ -6,3 +6,8 @@
 //* ('*', 5, 5) --> 25
 //* ('/', 49, 7) --> 7
 //pseudo do switch case
+
+function basicOp(operation, value1, value2) {
+  // Code
+  return;
+}
