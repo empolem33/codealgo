@@ -9,5 +9,16 @@
 
 function basicOp(operation, value1, value2) {
   // Code
-  return;
+  switch (operation) {
+    case "+":
+      return Number(value1) + Number(value2);
+    case "-":
+      return Number(value1) - Number(value2);
+    case "*":
+      return Number(value1) * Number(value2);
+    case "/":
+      return Number(value1) / Number(value2);
+  }
 }
+
+console.log(basicOp("+", "2", "3"));
