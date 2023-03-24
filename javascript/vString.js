@@ -7,4 +7,10 @@
 
 function contamination(text, char) {
   // Code here ;)
+  return text
+    .split("")
+    .map((f) => char)
+    .join("");
 }
+
+console.log(contamination("abc", " "));
