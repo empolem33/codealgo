@@ -8,5 +8,14 @@
 // if bmi > 30 return "Obese"
 //psusdo swhic case
 function bmi(weight, height) {
-  return "";
+  const mass = weight / height ** 2;
+  return mass <= 18.5
+    ? "Underweight"
+    : mass <= 25
+    ? "Normal"
+    : mass <= 30
+    ? "Overweight"
+    : "Obeses";
 }
+
+console.log(bmi(80, 1.8));
